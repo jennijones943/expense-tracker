@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="loginbody">
+    <a href="dashboard.html"><button class="signup" id="backbtn">Back</button></a>
+    <div class="logincontainer">
+        <div class="innerlogin">
+        <h2 style="margin-bottom: 1.5rem;">Add expense</h2>
+        <h4 >enter the name on which you spent</h4>
+        <input class="logininput" type="text" id="expensename" placeholder="expense name">
+        <h4>category</h4>
+        <select>
+            <option>Food</option>
+            <option>Shopping</option>
+            <option>travel</option>
+            <option>others</option>
+        </select>
+        <h4>amount spent</h4>
+        <input type="text" class="logininput" id="amount" placeholder="amount">
+        </div>
+        <button class="signup" id="addexpense"><i class="fa-solid fa-plus"></i>Add expense</button>
+        </div>
+    </div>
+    <script type="module" src="form.js"></script>
+</body>
+</html>

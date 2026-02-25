@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F3E8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+.uppercontainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height:6rem;
+    width:60rem;
+    gap:6rem;
+}
+.calculations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    width:14rem;
+    background-color: bisque;
+    border-radius: 15px;
+    background-color: white;
+}
+#tb{
+    background-color: #E6F9FA;
+    color: #0B3D91;
+    border: 1px solid #4A7BD1;
+}
+#tb:hover{
+    border: 1px solid #0B3D91;
+    cursor: pointer;
+}
+#te{
+    background-color: #FFE5E5;
+    color: #8B0000;
+    border: 1px solid #B22222;
+}
+#te:hover{
+    border: 1px solid #8B0000;
+    cursor: pointer;
+}
+#rb{
+    background-color: #E9FBEA;
+    color: #0F5132;
+     border: 1px solid #2FA97A;
+}
+#rb:hover{
+    border: 1px solid #064E3B;
+    cursor: pointer;
+}
+.add{
+    padding: 10px 20px;
+    border: none;
+    background-color:#441D88;
+    color: white;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: larger;
+    position: fixed;
+    bottom:20px;
+}
+#setincome{
+    right:30px;
+}
+.add:hover{
+  transform: scale(1.2);
+}
+#expenselist{
+    width:95%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.item{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    width:100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    padding:15px;
+    gap: 10px;
+}
+.images{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.actions{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.delete{
+    color:gray;
+    background-color: white;
+    border: none;
+}
+.delete:hover{
+    color:#FF0000;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.edit{
+    color:gray;
+    background-color: white;
+    border: none;
+}
+.edit:hover{
+    color:blue;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.info h4,
+.info p{
+    margin: 0;
+}
+.chart-container {
+  width: 95%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  position: relative;
+  height: 350px;   /* FIXED stable height */
+}
+.noexpense{
+    margin-bottom:100px;
+    align-items: center;
+    padding: 40px;
+    color: #666;
+  font-size: 18px;
+}
+.noexpense small{
+     display: block;
+  margin-top: 8px;
+  color: #999;
+}

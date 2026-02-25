@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashstyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1><span id="username"></span></h1>
+  <div class="uppercontainer">
+    <div class="calculations" id="tb">Total Balance<p id="Totalbalance">0</p></div>
+    <div class="calculations" id="te">Total Expense<p id="Totalexpense">0</p></div>
+    <div class="calculations" id="rb">Remaining Balance<p id="Remainingbalance">0</p></div>
+  </div>
+  <div class="chart-container">
+  <canvas id="expenseChart"></canvas>
+</div>
+  <div id="expenselist"></div>
+  <button class="add" id="additem"><i class="fa-solid fa-plus"></i>Add expense</button>
+  <button class="add" id="setincome">₹ set income</button>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="dashboard.js"></script>
+</body>
+</html>
