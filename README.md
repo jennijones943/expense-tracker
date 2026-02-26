@@ -58,6 +58,9 @@ A web-based Expense Tracker application that allows users to manage their income
 - Budget goal tracking
 
 ---
+## 🌐 Live Demo
+https://jennijones943.github.io/expense-tracker/
+
 
 ## 👩‍💻 Author
 
