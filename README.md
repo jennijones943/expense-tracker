@@ -60,7 +60,14 @@ A web-based Expense Tracker application that allows users to manage their income
 ---
 ## 🌐 Live Demo
 https://jennijones943.github.io/expense-tracker/
-
+#📷 screenshots
+#desktop view
+![desktop view](preview.png)
+#signup view
+![signup view](signup.png)
+#dashboard view
+[dashboard view](dashboard.png)
+[dashboard view](dashboard2.png)
 
 ## 👩‍💻 Author
 
