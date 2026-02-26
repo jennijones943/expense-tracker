@@ -67,8 +67,6 @@ https://jennijones943.github.io/expense-tracker/
 ![signup view](signup.png)
 #dashboard view
 [dashboard view](dashboard.png)
-[dashboard view](dashboard2.png)
-
 ## 👩‍💻 Author
 
 JenniJones  
